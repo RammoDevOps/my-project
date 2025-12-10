@@ -4,13 +4,13 @@ on:
  workflow_dispatch:
 
 jobs:
- say-hello-inline-bash
+ hello-world-inline-bash:
   runs-on: ubuntu-latest
   steps:
    - run: echo "Hello World Inline Bash Script"
 
- say-hello-inline-python
-  runs-on: ubuntu-latest
-  steps:
-   - run: print("Hello World Inline Python Script")
-   shell: python
+ hello-world-inline-pyhton:
+   runs-on: ubuntu-latest
+   steps:
+    - run: print("Hello World Inline Python")
+    shell: python
