@@ -1,10 +1,11 @@
 name: Hello World
 
 on:
-	workflow_dispatch:
+ workflow_dispatch:
 
 jobs:
-	say-hello-inline-bash:
-		runs-on: ubuntu-latest
-		steps:
-			- run: echo "Hello World From Inline Bash Script"
+ say-hello-inline-bash:
+  runs-on: ubuntu-latest
+  steps:
+  - run: echo "Hello World From Inline Bash Script"
+ 
