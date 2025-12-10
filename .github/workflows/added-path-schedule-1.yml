@@ -3,8 +3,7 @@ name: Rame
 on: 
   push:
     branches: [ "main" ]
-    paths:
-      - "test-registration.py" 
+    
   pull_request:
     types:
       - opened
